@@ -68,6 +68,20 @@ body{
         font-size: .5rem;
     }
 }
+/* Aturan CSS untuk ukuran layar kurang dari 600px */
+@media (max-width: 600px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  
+  /* Aturan CSS untuk ukuran layar antara 600px dan 900px */
+  @media (min-width: 600px) and (max-width: 900px) {
+    body {
+      font-size: 16px;
+    }
+  }
+  
 .bi-whatsapp, .bi-instagram {
     color: white;
   }

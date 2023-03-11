@@ -1318,4 +1318,18 @@ body {
 .container * {
   -webkit-animation-play-state: paused !important;
           animation-play-state: paused !important;
-}/*# sourceMappingURL=main.css.map */
+}
+/* Aturan CSS untuk ukuran layar kurang dari 600px */
+@media (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Aturan CSS untuk ukuran layar antara 600px dan 900px */
+@media (min-width: 600px) and (max-width: 900px) {
+  body {
+    font-size: 16px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
